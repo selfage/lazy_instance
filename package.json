@@ -1,0 +1,35 @@
+{
+  "name": "@selfage/lazy_instance",
+  "version": "0.0.1",
+  "description": "Lazily constructed instance.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfage/lazy_instance.git"
+  },
+  "keywords": [
+    "Lazy",
+    "Pointer",
+    "Instance",
+    "Constructor",
+    "Delay",
+    "Defer"
+  ],
+  "author": "Yuxuan Xie <teststaybaka@gmail.com> (http://www.yuxuanxie.com)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/selfage/lazy_instance/issues"
+  },
+  "homepage": "https://github.com/selfage/lazy_instance#readme",
+  "main": "./lazy_instance.js",
+  "types": "./lazy_instance.d.ts",
+  "files": [
+    "**/*.js",
+    "**/*.d.ts",
+    "!**/*_test.*",
+    "!test_data/**/*"
+  ],
+  "devDependencies": {
+    "@selfage/tsconfig": "^1.0.7",
+    "typescript": "^4.3.5"
+  }
+}
