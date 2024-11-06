@@ -1,6 +1,6 @@
 {
   "name": "@selfage/lazy_instance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lazily constructed instance.",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "Defer"
   ],
   "author": "Yuxuan Xie <teststaybaka@gmail.com> (http://www.yuxuanxie.com)",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/selfage/lazy_instance/issues"
   },
@@ -29,7 +29,8 @@
     "!test_data/**/*"
   ],
   "devDependencies": {
-    "@selfage/tsconfig": "^1.0.7",
+    "@selfage/cli": "^5.0.0",
+    "@selfage/tsconfig": "^1.1.0",
     "typescript": "^4.3.5"
   }
 }
